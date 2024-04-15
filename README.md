@@ -9,9 +9,13 @@ Usando ORM - Prisma.io
 
 <p>
 sobre: Um simples Api de encontros criação de conta.
-O usuário poderá criar seu perfil, tendo as opções: 
-id (por padrão é auto incrementado)
-Nome,
-Email (tipo único),
-Senha.
+O usuário poderá criar seu perfil, tendo as opções:
+<ul>
+<li> id (por padrão é auto incrementado)</li>
+  <li> Nome</li>
+ <li> Email (tipo único)</li>
+  <li> Senha</li>
+</li>
+</ul>
 </p>
+
