@@ -1,5 +1,13 @@
 import { UsersService } from './users.service';
-import { Controller, Body, Post, Get, Param, Patch } from '@nestjs/common';
+import {
+  Controller,
+  Body,
+  Post,
+  Get,
+  Param,
+  Patch,
+  Delete,
+} from '@nestjs/common';
 import { CreateUserDto } from './dtos/createUserBody';
 import { UpdateUserDto } from './dtos/updateUserBody';
 
@@ -31,5 +39,9 @@ export class UsersController {
       where: { id: Number(id) },
       data: updateUserDto,
     });
+  }
+  @Delete('/:id')
+  async deleteUser(@Param('id') id: string): Promise<CreateUserDto> {
+    return this.usersService.deleteUser({ id: Number(id) });
   }
 }
