@@ -3,12 +3,15 @@
 
 <h3>
 Framework - Nestjs
-Usando ORM - Prisma.io
+</h3>
+<h3>
+Banco de dados - SQLite
+</h3>
+<h3>
+ORM - Prisma.io
 </h3>
 
-
-<p>
-sobre: Um simples Api de encontros criação de conta.
+<p> Sobre: Um simples Api de criação de conta.
 O usuário poderá criar seu perfil, tendo as opções:
 <ul>
 <li> id (por padrão é auto incrementado)</li>
@@ -18,4 +21,3 @@ O usuário poderá criar seu perfil, tendo as opções:
 </li>
 </ul>
 </p>
-
